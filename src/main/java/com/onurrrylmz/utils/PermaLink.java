@@ -1,5 +1,5 @@
 package com.onurrrylmz.utils;
 
 public class PermaLink {
-    //GİTHUB :
+    // GİTHUB : https://github.com/onurrrylmz/PatikaSpringFramework
 }
