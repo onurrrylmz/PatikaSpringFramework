@@ -17,7 +17,8 @@ public class _04_New {
     //üretilen
     @Produces
     public String uretilenData( @New StudentDto studentDto) {
-        studentDto=StudentDto.builder().StudentId(0L).StudentName("student adı").build();
+
+        studentDto=StudentDto.builder().studentId(0L).studentName("student adı").build();
 
         return studentDto.getStudentName();
     }
