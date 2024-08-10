@@ -7,6 +7,7 @@ import javax.inject.Named;
 @Named(value = "cdisizCalisan")
 @ApplicationScoped
 
+
 public class Calisan {
 
     private Patron patron;
