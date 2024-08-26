@@ -1,4 +1,4 @@
-package com.onurrrylmz.qualifier;
+package com.onurrrylmz.qualifier2;
 
 @QualifierMultiple
 

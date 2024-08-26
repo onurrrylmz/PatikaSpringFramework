@@ -1,4 +1,4 @@
-package com.onurrrylmz.qualifier;
+package com.onurrrylmz.qualifier3;
 
 import javax.enterprise.inject.Default;
 

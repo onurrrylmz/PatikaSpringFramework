@@ -1,4 +1,4 @@
-package com.onurrrylmz.qualifier;
+package com.onurrrylmz.qualifier2;
 
 
 import javax.enterprise.context.ApplicationScoped;
@@ -11,13 +11,13 @@ import javax.inject.Named;
 
 public class Calisan {
     //Defaultta çalışacak kodlar
-    //@Inject  // Dependency Injection oluyor
-    //private PatronInterface patronInterface;
+    @Inject  // Dependency Injection oluyor
+    private PatronInterface patronInterface;
 
     //Defaultta çalışacak kodlar
-    @Inject  // Dependency Injection oluyor
-    @QualifierMultiple
-    private PatronInterface patronInterface;
+//    @Inject  // Dependency Injection oluyor
+//    @QualifierMultiple
+//    private PatronInterface patronInterface;
 
     public Calisan(){
 

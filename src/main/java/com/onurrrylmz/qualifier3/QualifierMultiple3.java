@@ -1,4 +1,4 @@
-package com.onurrrylmz.qualifier;
+package com.onurrrylmz.qualifier3;
 
 
 import javax.inject.Qualifier;
@@ -10,5 +10,9 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 
-public @interface QualifierMultiple {
+public @interface QualifierMultiple3 {
+
+    //Enum yapısı
+    EFazlaSecenekler value();
+
 }
