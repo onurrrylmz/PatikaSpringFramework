@@ -1,8 +1,8 @@
-package com.onurrrylmz.alternative;
+package com.onurrrylmz.qualifier;
 
-import javax.enterprise.inject.Alternative;
+import javax.enterprise.inject.Default;
 
-@Alternative
+@Default
 public class Patron1 implements PatronInterface {
 
 
@@ -10,7 +10,7 @@ public class Patron1 implements PatronInterface {
     @Override
     public String sürüm(String data) {
 
-        return "patron 1 " + data;
+        return "default data:" + data;
     }
 
 }
